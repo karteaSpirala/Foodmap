@@ -1,0 +1,66 @@
+body {
+  background: #2B2B2B;
+  color: #2B2B2B;
+}
+
+/*Principal View*/
+h2 {
+  color: #FE7E11;
+  padding: 0 0 0 14vh;
+}
+
+h4 {
+  color: #FE7E11;
+  padding: 0 0 0 10vh;
+}
+
+.map {
+  padding: 0 6vh 0 2vh;
+}
+
+.food-collage {
+  object-position: center;
+  width: 50vh;
+  padding: 0 2vh 0 4vh;
+  margin-top: 2vh;
+}
+
+/*Input*/
+input[type=text] {
+  background: #C7C9C6;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  border: 2px solid #C7C9C6;
+  transition: .3s;
+}
+
+input[type=text]:focus {
+  background: #E9E2DC;
+  border: 2px solid #E9E2DC;
+}
+
+.input-icon input[type=text] {
+  padding-right: 18vh;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  background-color: #9B9B9B;
+  border-radius: 2px;
+  position: absolute;
+  left: 46vh;
+  top: 1.5vh;
+  color: black;
+  padding: 1.9vh;
+  transition: .3s;
+}
+
+.input-icon input[type=text]:focus + i {
+  background-color: #9B9B9B;
+  color: #626262;
+}
